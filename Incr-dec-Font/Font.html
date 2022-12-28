@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
+
+        body{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        .btn{
+            font-family: 'Montserrat', sans-serif;
+            padding: 12px;
+            border: 0;
+            margin-top:24px;
+            margin-left:24px;
+            background-color: rgba(0,0,0, 0.4);
+            color: white;
+        }
+        .btn:hover{
+            transform: scale(1.1,1.1) ;
+            box-shadow: 1px 0px 3px #010b13;
+        }
+        #heading{
+            text-align: center;
+            font-size: 34px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <button id="btn-fontDec" class="btn">Font --</button>
+            <button id="btn-fontInc" class="btn">Font ++</button>
+            <h1 id="heading">
+                Fetch Style in JavaScript  
+            </h1> 
+        </div>
+    </header>
+    <script src="Font.js"></script>
+</body>
+</html>
