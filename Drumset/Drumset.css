@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
+
+body{
+    background-image: url('https://media.istockphoto.com/id/472290291/vector/music-background.jpg?s=612x612&w=0&k=20&c=4aWSi3e-yyqPMThercfRY771ITGBmbpeQmP0ZtP8ALc=');
+}
+
+.btn-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-items{
+    text-align: center;
+	width: 100px;
+	height: 70px;
+	cursor: pointer;
+	font-size: 16px;
+	border: 0;
+	color: #fff;
+	background-color: rgba(0,0,0, 0.4);
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
