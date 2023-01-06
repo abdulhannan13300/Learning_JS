@@ -21,12 +21,13 @@ var input = document.getElementById('input-area')
 
 var inputString = ''
 document.body.addEventListener('keypress', function(event) {
-    alert("clicked")
+    // alert("clicked")
     var key = event.key
-    
+     console.log(key)
+
     if (key === '1'|| key=='2'|| key=='3'|| key=='4'|| key=='5'|| key=='6'|| key=='7'|| key=='8'|| key=='9'|| key=='0') {
         inputString += key
-        input = inputString
+        input.innerHTML = inputString
     } 
     else if(key==='+'){
       inputString+=key
@@ -53,6 +54,7 @@ document.body.addEventListener('keypress', function(event) {
         input.innerText=inputString
     }
 })
+
 
 zero.addEventListener('click',function(){
     inputString+='0'
